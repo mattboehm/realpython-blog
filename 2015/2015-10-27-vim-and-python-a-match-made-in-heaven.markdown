@@ -169,7 +169,7 @@ Probably the *MOST* important feature of VIM is that it doesn't require a mouse 
 
 ### Split Layouts
 
-Open a file with `:sv <filename>` and you split the layout vertically (e.g., the new file opens below the current file) or reverse the keys to `:vs <filename>` and you get a horizontal split (e.g., the new file opens to the right of your current file).
+Open a file with `:sp <filename>` (short for split) and you split the layout horizontally (e.g., the new file opens below the current file) or type `:vs <filename>` (short for v(ertical)split) and you get a vertical split (e.g., the new file opens to the right of your current file).
 
 <div class="center-text">
   <img class="no-border" src="/images/blog_images/vim/split-layouts.png" style="max-width: 100%;" alt="vim split layouts">
@@ -179,7 +179,7 @@ Open a file with `:sv <filename>` and you split the layout vertically (e.g., the
 
 You can nest splits as well, so you can have splits inside of splits, horizontal and vertical, to your heart's content. As we all know we often need to look at several files at once when developing.
 
-**Pro Tip**: Make sure to utilize tab completion to find files after typing `:sv`.
+**Pro Tip**: Make sure to utilize tab completion to find files after typing `:sp`.
 
 **Pro Tip**: You can also specify different areas of the screen where the splits should occur by adding the following lines to the *.vimrc* file:
 
